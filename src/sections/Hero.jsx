@@ -12,11 +12,11 @@ const Hero = () => {
               </span>
             </h1>
             <h3 className="text-lg font-medium mb-7 lg:text-4xl text-slate-500">
-              Frontend & Mobile <span className="text-dark">Developer</span>
+              Frontend Web & Mobile <span className="text-dark">Developer</span>
             </h3>
 
             <a
-              href="#"
+              href="#about"
               className="px-8 py-3 text-base font-semibold text-white transition duration-300 ease-in-out rounded-full bg-primary hover:shadow-lg hover:opacity-75"
             >
               Contact Me
