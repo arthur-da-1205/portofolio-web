@@ -4,11 +4,12 @@ const Navbar = () => {
   const Links = [
     { name: "Home", link: "/" },
     { name: "About", link: "/about" },
-    { name: "Portofolio", link: "/portofolio" },
+    { name: "Portfolio", link: "/portfolio" },
     { name: "Contact", link: "/contact" },
   ];
 
   const [open, setOpen] = useState(false);
+
   return (
     <div className="fixed top-0 left-0 w-full shadow-md">
       <div className="items-center justify-between py-4 bg-transparent md:flex md:px-10 px-7">
@@ -22,7 +23,7 @@ const Navbar = () => {
           <ion-icon name={open ? "close" : "menu"}></ion-icon>
         </div>
         <ul
-          className={`absolute pb-12 md:flex md:items-center md:pb-0 md:static bg-white md:z-auto z-[-1] left-0 w-full md:w-auto md:pl-0 pl-9 transition-all duration-300 ease-in-out ${
+          className={`absolute pb-12 md:flex md:items-center md:pb-0 md:static bg-white md:z-auto z-[-1] right-0 w-full md:w-auto md:pl-0 pl-9 transition-all duration-300 ease-in-out ${
             open ? "top-20 opacity-90" : "top-[-500px]"
           } md:opacity-95 opacity-0 `}
         >

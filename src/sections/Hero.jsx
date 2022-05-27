@@ -1,7 +1,7 @@
 const Hero = () => {
   return (
     //  Hero Section Start
-    <section id="hero" className="pt-36">
+    <section id="home" className="pt-36">
       <div className="container">
         <div className="flex flex-wrap">
           <div className="self-center w-full px-4 lg:w-1/2">
