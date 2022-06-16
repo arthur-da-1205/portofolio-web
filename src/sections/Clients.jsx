@@ -4,14 +4,14 @@ export const Clients = () => {
   return (
     <section
       id="clients"
-      className="pb-32 pt-36 sm:bg-slate-400 lg:bg-slate-500 xl:lg:bg-slate-500"
+      className="pt-24 pb-24 sm:bg-slate-500 lg:bg-slate-400 xl:lg:bg-slate-400"
     >
       <div className="container">
         <div className="w-full px-4">
           <div className="mx-auto mb-16 text-center">
-            <h4 className="mb-2 text-lg font-semibold text-primary">Clients</h4>
+            <h4 className="mb-2 text-lg font-bold text-primary">Clients</h4>
             <h2 className="mb-4 text-3xl font-bold text-white sm:text-4xl lg:text-5xl">
-              Have been{" "}
+              Have Work Together
             </h2>
           </div>
         </div>

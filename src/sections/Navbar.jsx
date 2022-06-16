@@ -1,17 +1,19 @@
 import { useState } from "react";
+import { Link } from "react-scroll";
 
 const Navbar = () => {
   const Links = [
-    { name: "Home", link: "/" },
-    { name: "About", link: "/#about" },
-    { name: "Portfolio", link: "/portfolio" },
-    { name: "Contact", link: "/contact" },
+    { name: "Home", link: "home" },
+    { name: "About", link: "about" },
+    { name: "Portfolio", link: "portfolio" },
+    { name: "Clients", link: "clients" },
+    { name: "Contact", link: "contact" },
   ];
 
   const [open, setOpen] = useState(false);
 
   return (
-    <div className="fixed top-0 left-0 w-full shadow-md">
+    <div className="fixed top-0 left-0 z-10 w-full shadow-md">
       <div className="items-center justify-between py-4 bg-white md:flex md:px-10 px-7">
         <div className="flex items-center text-2xl font-bold cursor-pointer text-primary">
           arthur darwanto
@@ -29,12 +31,17 @@ const Navbar = () => {
         >
           {Links.map((link) => (
             <li key={link.name} className="text-xl md:ml-8 md:my-0 my-7">
-              <a
-                href={link.link}
-                className="duration-500 text-slate-500 hover:text-primary"
+              <Link
+                activeClass="active"
+                to={link.link}
+                spy={true}
+                smooth={true}
+                offset={10}
+                duration={500}
+                className="duration-500 cursor-pointer text-slate-500 hover:text-primary"
               >
                 {link.name}
-              </a>
+              </Link>
             </li>
           ))}
         </ul>

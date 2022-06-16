@@ -11,12 +11,13 @@ const Hero = () => {
                 Arthur Darwanto
               </span>
             </h1>
-            <h3 className="text-lg font-medium mb-7 lg:text-4xl text-slate-500">
-              Frontend Web & Mobile <span className="text-dark">Developer</span>
+            <h3 className="text-lg font-medium mb-7 lg:text-3xl text-slate-500">
+              Frontend Web & Mobile App{" "}
+              <span className="text-dark">Developer</span>
             </h3>
 
             <a
-              href="#about"
+              href="https://api.whatsapp.com/send/?phone=6281913581675"
               className="px-8 py-3 text-base font-semibold text-white transition duration-300 ease-in-out rounded-full bg-primary hover:shadow-lg hover:opacity-75"
             >
               Contact Me
@@ -25,9 +26,10 @@ const Hero = () => {
           <div className="self-end w-full px-4 lg:w-1/2">
             <div className="mt-10">
               <img
-                src={require("../assets/images/me.png")}
+                src={require("../assets/images/photo_profile.png")}
                 alt="Arthur"
                 className="max-w-full mx-auto"
+                width={450}
               />
             </div>
           </div>
