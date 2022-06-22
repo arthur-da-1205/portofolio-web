@@ -20,7 +20,7 @@ export const Clients = () => {
             <a
               href="https://thinkindonesia.co.id"
               target="_blank"
-              className="max-w-[120px] mx-4 py-4 sm:grayscale-0 lg:grayscale xl:grayscale opacity-70 transition duration-500 hover:grayscale-0 hover:opacity-100 lg:mx-6 xl:mx-8"
+              className="max-w-[180px] mx-4 py-4 sm:grayscale-0 lg:grayscale xl:grayscale opacity-70 transition duration-500 hover:grayscale-0 hover:opacity-100 lg:mx-6 xl:mx-8"
             >
               <img
                 src={require("../assets/images/clients/logo-think.png")}
@@ -30,7 +30,7 @@ export const Clients = () => {
             <a
               href="https://bungadavi.co.id"
               target="_blank"
-              className="max-w-[120px] mx-4 py-4 sm:grayscale-0 lg:grayscale xl:grayscale opacity-70 transition duration-500 hover:grayscale-0 hover:opacity-100 lg:mx-6 xl:mx-8"
+              className="max-w-[180px] mx-4 py-4 sm:grayscale-0 lg:grayscale xl:grayscale opacity-70 transition duration-500 hover:grayscale-0 hover:opacity-100 lg:mx-6 xl:mx-8"
             >
               <img
                 src={require("../assets/images/clients/log-bungadavi.png")}
@@ -40,7 +40,7 @@ export const Clients = () => {
             <a
               href="https://creativecolors-inc.com"
               target="_blank"
-              className="max-w-[120px] mx-4 py-4  sm:grayscale-0 lg:grayscale xl:grayscale opacity-70 transition duration-500 hover:grayscale-0 hover:opacity-100 lg:mx-6 xl:mx-8"
+              className="max-w-[180px] mx-4 py-4  sm:grayscale-0 lg:grayscale xl:grayscale opacity-70 transition duration-500 hover:grayscale-0 hover:opacity-100 lg:mx-6 xl:mx-8"
             >
               <img
                 src={require("../assets/images/clients/3.png")}
@@ -50,7 +50,7 @@ export const Clients = () => {
             <a
               href="https://mimako.creativecolors-inc.com"
               target="_blank"
-              className="max-w-[120px] mx-4 py-4  sm:grayscale-0 lg:grayscale xl:grayscale opacity-70 transition duration-500 hover:grayscale-0 hover:opacity-100 lg:mx-6 xl:mx-8"
+              className="max-w-[180px] mx-4 py-4  sm:grayscale-0 lg:grayscale xl:grayscale opacity-70 transition duration-500 hover:grayscale-0 hover:opacity-100 lg:mx-6 xl:mx-8"
             >
               <img
                 src={require("../assets/images/clients/logo.png")}
@@ -60,7 +60,7 @@ export const Clients = () => {
             <a
               href="https://kjmis.id"
               target="_blank"
-              className="max-w-[120px] mx-4 py-4 sm:grayscale-0 lg:grayscale xl:grayscale opacity-70 transition duration-500 hover:grayscale-0 hover:opacity-100 lg:mx-6 xl:mx-8"
+              className="max-w-[180px] mx-4 py-4 sm:grayscale-0 lg:grayscale xl:grayscale opacity-70 transition duration-500 hover:grayscale-0 hover:opacity-100 lg:mx-6 xl:mx-8"
             >
               <img
                 src={require("../assets/images/clients/kjmis-removebg-preview.png")}

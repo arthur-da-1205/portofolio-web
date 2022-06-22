@@ -5,9 +5,9 @@ const About = () => {
     <section id="about" className="pb-32 pt-36">
       <div className="container">
         {/* <img src={IcFacebook} alt="" width={20} /> */}
-        <div className="flex flex-wrap">
-          <div className="w-full px-4 mb-10 lg:w-1/2">
-            <h4 className="mb-3 text-lg font-bold uppercase text-primary">
+        <div className="flex flex-wrap ">
+          <div className="w-full px-4 mb-10 lg:w-1/2 ">
+            <h4 className="mb-3 text-lg font-bold uppercase text-primary ">
               About Me
             </h4>
             <h2 className="max-w-md mb-5 text-3xl font-bold text-dark lg:text-4xl">

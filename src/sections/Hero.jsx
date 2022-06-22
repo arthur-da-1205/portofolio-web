@@ -29,7 +29,7 @@ const Hero = () => {
                 src={require("../assets/images/photo_profile.png")}
                 alt="Arthur"
                 className="max-w-full mx-auto"
-                width={450}
+                width={480}
               />
             </div>
           </div>

@@ -1,7 +1,8 @@
-import React from "react";
-import { useState } from "react";
-import Modal from "../components/Modal";
+import { useCallback, useState } from "react";
 import { ModalItem } from "../components/Modaltem";
+
+import SS1 from "../assets/images/portfolio/SiniNonton/ss1.jpg";
+import SS2 from "../assets/images/portfolio/SiniNonton/ss2.jpg";
 
 const PortfolioData = {
   items: [
@@ -10,14 +11,7 @@ const PortfolioData = {
       name: "Bungadavi Courier App",
       desc: "Mobile App for Bungadavi's Couriers",
       imgThumbnail: require("../assets/images/portfolio/BungaDavi_Courier.jpg"),
-      imgDetail: [
-        {
-          img: require("../assets/images/portfolio/SiniNonton/ss1.jpg"),
-        },
-        {
-          img: require("../assets/images/portfolio/SiniNonton/ss2.jpg"),
-        },
-      ],
+      imgDetail: [SS1, SS2],
     },
     {
       id: 2,
@@ -94,13 +88,19 @@ const PortfolioData = {
 
 const Portfolio = () => {
   const [isOpen, setIsOpen] = useState(false);
-  const [detail, setDetail] = useState([]);
-  // const data = PortfolioData;
+  const [detail, setDetail] = useState([null]);
 
-  const handleOpenModal = (dataCek) => {
-    setDetail(dataCek);
-    setIsOpen(!isOpen);
-  };
+  const handleOpenModal = useCallback(
+    async (dataCek) => {
+      // console.log(dataCek);
+      if (dataCek) {
+        setDetail(dataCek);
+        console.log(detail);
+        setIsOpen(true);
+      }
+    },
+    [detail]
+  );
 
   return (
     <section id="portfolio" className="pt-20 pb-14 bg-slate-200">
@@ -118,7 +118,7 @@ const Portfolio = () => {
         <div className="flex flex-wrap justify-center w-full px-4 xl:w-10/12 xl:mx-auto">
           {PortfolioData.items.map((item) => (
             <div
-              onClick={() => handleOpenModal(item)}
+              // onClick={() => handleOpenModal(item)}
               className="p-4 mb-12 md:w-1/2"
             >
               <div className="overflow-hidden rounded-md shadow-md hover:shadow-2xl">
@@ -138,12 +138,12 @@ const Portfolio = () => {
           ))}
         </div>
       </div>
-      <ModalItem
+      {/* <ModalItem
         title={detail.name}
         isOpen={isOpen}
         closeModal={() => setIsOpen(false)}
         detail={detail}
-      />
+      /> */}
     </section>
   );
 };
