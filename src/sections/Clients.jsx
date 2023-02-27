@@ -9,10 +9,9 @@ export const Clients = () => {
       <div className="container">
         <div className="w-full px-4">
           <div className="mx-auto mb-16 text-center">
-            <h4 className="mb-2 text-lg font-bold text-primary">Clients</h4>
-            <h2 className="mb-4 text-3xl font-bold text-white sm:text-4xl lg:text-5xl">
-              Have Work Together
-            </h2>
+            <h3 className="mb-4 text-3xl font-bold text-white sm:text-4xl lg:text-5xl">
+              Works and Projects
+            </h3>
           </div>
         </div>
         <div className="w-full px-4">
@@ -21,6 +20,7 @@ export const Clients = () => {
               href="https://thinkindonesia.co.id"
               target="_blank"
               className="max-w-[180px] mx-4 py-4 sm:grayscale-0 lg:grayscale xl:grayscale opacity-70 transition duration-500 hover:grayscale-0 hover:opacity-100 lg:mx-6 xl:mx-8"
+              rel="noreferrer"
             >
               <img
                 src={require("../assets/images/clients/logo-think.png")}
@@ -31,6 +31,7 @@ export const Clients = () => {
               href="https://bungadavi.co.id"
               target="_blank"
               className="max-w-[180px] mx-4 py-4 sm:grayscale-0 lg:grayscale xl:grayscale opacity-70 transition duration-500 hover:grayscale-0 hover:opacity-100 lg:mx-6 xl:mx-8"
+              rel="noreferrer"
             >
               <img
                 src={require("../assets/images/clients/log-bungadavi.png")}
@@ -41,6 +42,7 @@ export const Clients = () => {
               href="https://creativecolors-inc.com"
               target="_blank"
               className="max-w-[180px] mx-4 py-4  sm:grayscale-0 lg:grayscale xl:grayscale opacity-70 transition duration-500 hover:grayscale-0 hover:opacity-100 lg:mx-6 xl:mx-8"
+              rel="noreferrer"
             >
               <img
                 src={require("../assets/images/clients/3.png")}
@@ -51,20 +53,11 @@ export const Clients = () => {
               href="https://mimako.creativecolors-inc.com"
               target="_blank"
               className="max-w-[180px] mx-4 py-4  sm:grayscale-0 lg:grayscale xl:grayscale opacity-70 transition duration-500 hover:grayscale-0 hover:opacity-100 lg:mx-6 xl:mx-8"
+              rel="noreferrer"
             >
               <img
                 src={require("../assets/images/clients/logo.png")}
                 alt="mimako"
-              />
-            </a>
-            <a
-              href="https://kjmis.id"
-              target="_blank"
-              className="max-w-[180px] mx-4 py-4 sm:grayscale-0 lg:grayscale xl:grayscale opacity-70 transition duration-500 hover:grayscale-0 hover:opacity-100 lg:mx-6 xl:mx-8"
-            >
-              <img
-                src={require("../assets/images/clients/kjmis-removebg-preview.png")}
-                alt="kjmis"
               />
             </a>
           </div>
